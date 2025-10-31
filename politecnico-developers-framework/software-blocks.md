@@ -7,9 +7,14 @@ architecture-beta
     service master_pc(z)[Master] in master
     group rasp(server)[Raspberry] in exo
     service back(server)[Server NodeJS] in rasp
-    service code(application)[Politecnico developer Code] in rasp
+    group poli(application)[Politecnico developer part] in rasp
+    service main_code(application)[main_c] in poli
+    service utils_code(application)[utils_c] in poli
+    service button_settings(application)[developer_buttons_json] in poli
    
-    code:R -- L:back
+    main_code:R -- L:back
+    main_code:L -- R:utils_code
+    button_settings:R -- L:back
     master_pc:T -- B:back
   
 ```
