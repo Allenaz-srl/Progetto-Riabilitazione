@@ -7,4 +7,4 @@
 
 * [Software blocks](politecnico-developers-framework/software-blocks.md)
 * [Schema di comunicazione](politecnico-developers-framework/schema-di-comunicazione.md)
-* [Main FSM](politecnico-developers-framework/main-fsm.md)
+* [Main FSM](politecnico-developers-framework/page-1.md)
