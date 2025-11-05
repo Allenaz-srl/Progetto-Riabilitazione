@@ -70,15 +70,24 @@ switch (button_pushed){
     break;
     case 1:
             //controllo di posizione
-            set_axis_working_mode(0,working_mode.position_control);
-            set_axis_working_mode(1,working_mode.position_control);
-            set_axis_working_mode(2,working_mode.position_control);
-            set_axis_working_mode(3,working_mode.position_control);
+            set_master_working_mode(master_working_mode.developer_auto_mode);
+            set_axis_working_mode(0,driver_working_mode.position_control);
+            set_axis_working_mode(1,driver_working_mode.position_control);
+            set_axis_working_mode(2,driver_working_mode.position_control);
+            set_axis_working_mode(3,driver_working_mode.position_control);
             set_target(0,target_position_deg, 15.5);
             set_target(1,target_position_deg, 5.5);
             set_target(2,target_position_deg, 90.0);
             set_target(3,target_position_deg,45.0);
-break;
+    break;
+    case 2:
+            //stop
+            set_master_working_mode(master_working_mode.STOP_WORKING_MODE);
+    break;
+    case 3:
+            //errore
+            set_master_working_mode(master_working_mode.developer_error_mode);
+     break;
 }
 </code></pre>
 
