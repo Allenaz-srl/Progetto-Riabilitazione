@@ -51,10 +51,11 @@ enum driver_working_mode_enum{
 }
 
 enum targets_type{
+no_target,
 target_position_deg,
-target_position_bit,
 target_speed,
-target_torque
+target_torque,
+target_position_bit
 }
 ```
 
