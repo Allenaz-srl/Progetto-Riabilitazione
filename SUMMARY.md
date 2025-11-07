@@ -11,3 +11,4 @@
 * [State\_RUN](politecnico-developers-framework/state_run.md)
 * [utils.c](politecnico-developers-framework/utils.c.md)
 * [main](politecnico-developers-framework/main.md)
+* [SPI Message structure](politecnico-developers-framework/spi-message-structure.md)
