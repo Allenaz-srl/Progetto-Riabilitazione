@@ -53,9 +53,10 @@ enum driver_working_mode_enum{
 enum targets_type{
 no_target,
 target_position_deg,
-target_speed,
+target_speed_deg_s,
 target_torque,
-target_position_bit
+target_position_bit,
+target_speed_percent
 }
 ```
 
