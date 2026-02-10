@@ -30,7 +30,7 @@ game//byte
 //per adesso in stand-by  log_message//byte[..]
 }
 
-int game_answer_info_shared_memory_position[6]={0,4,6,10,12,12};
+int game_answer_info_shared_memory_position[6]={0,4,6,10,12,14};
 ```
 
 ```
