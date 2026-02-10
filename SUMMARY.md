@@ -12,3 +12,4 @@
 * [utils.c](politecnico-developers-framework/utils.c.md)
 * [main](politecnico-developers-framework/main.md)
 * [SPI Message structure](politecnico-developers-framework/spi-message-structure.md)
+* [Communication with TCP server](politecnico-developers-framework/communication-with-tcp-server.md)
